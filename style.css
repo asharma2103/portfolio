@@ -36,39 +36,42 @@
   }
   
 /* Enhanced nav for mobile + desktop */
-nav ul {
+nav {
+  width: 100%;
+  overflow-x: auto;
+}
+
+nav ul.nav-menu {
   display: flex;
   justify-content: center;
-  gap: 40px;
+  gap: 30px;
   list-style: none;
-  flex-wrap: nowrap;
-  overflow-x: auto;
-  padding: 0.5rem 1rem;
   margin: 0;
-  background-color: #111; /* Optional: dark background */
-  scrollbar-width: none; /* Firefox */
+  padding: 1rem;
+  overflow-x: auto;
+  scrollbar-width: none;
 }
 
-nav ul::-webkit-scrollbar {
-  display: none; /* Chrome/Safari */
+nav ul.nav-menu::-webkit-scrollbar {
+  display: none;
 }
 
-nav ul li {
+nav ul.nav-menu li {
   white-space: nowrap;
 }
 
-nav ul li a {
+nav ul.nav-menu li a {
   font-weight: 600;
-  transition: 0.3s;
   color: #00f7ff;
   text-decoration: none;
   padding: 0.5rem 1rem;
-  display: block;
+  transition: color 0.3s ease;
 }
 
-nav ul li a:hover {
+nav ul.nav-menu li a:hover {
   color: #00cfff;
 }
+
 
   
   .section {
