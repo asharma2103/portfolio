@@ -35,17 +35,41 @@
     z-index: 1000;
   }
   
-  nav ul {
-    display: flex;
-    justify-content: center;
-    gap: 40px;
-    list-style: none;
-  }
-  
-  nav ul li a {
-    font-weight: 600;
-    transition: 0.3s;
-  }
+/* Enhanced nav for mobile + desktop */
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  list-style: none;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  padding: 0.5rem 1rem;
+  margin: 0;
+  background-color: #111; /* Optional: dark background */
+  scrollbar-width: none; /* Firefox */
+}
+
+nav ul::-webkit-scrollbar {
+  display: none; /* Chrome/Safari */
+}
+
+nav ul li {
+  white-space: nowrap;
+}
+
+nav ul li a {
+  font-weight: 600;
+  transition: 0.3s;
+  color: #00f7ff;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  display: block;
+}
+
+nav ul li a:hover {
+  color: #00cfff;
+}
+
   
   .section {
     padding: 80px 20px;
