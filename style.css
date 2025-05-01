@@ -336,4 +336,48 @@
     opacity: 0.6;
     background: rgba(255, 255, 255, 0.02);
   }
-  
+
+/* Responsive Design for Skill, Achievement, and Project Cards */
+@media (max-width: 1024px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .about-container,
+  .project,
+  .skill-card,
+  .achievement-card,
+  .certification-card {
+    margin: 1rem auto;
+    width: 90%;
+  }
+
+  header nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  header nav ul li {
+    margin: 10px 0;
+  }
+
+  .hero h1 {
+    font-size: 1.8rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+
+  .btn {
+    padding: 0.6rem 1.2rem;
+    font-size: 0.9rem;
+  }
+}
+
