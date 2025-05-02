@@ -67,7 +67,7 @@ portfolio/
 
 ---
 
-## 📞 Client Contact (Optional)
+## 📞 Client Contact 
 
 You can reach the owner of this portfolio here:
 
