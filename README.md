@@ -67,13 +67,6 @@ portfolio/
 
 ---
 
-## 📸 Preview
-
-![Portfolio Preview](https://yourusername.github.io/portfolio/images/preview.png)  
-*(Replace with a real screenshot of the home page)*
-
----
-
 ## 📞 Client Contact (Optional)
 
 You can reach the owner of this portfolio here:
